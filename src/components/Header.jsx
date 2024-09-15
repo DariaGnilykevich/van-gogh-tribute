@@ -1,7 +1,9 @@
 import logo from "../assets/logo.svg";
 import BackgroundImage from "./BackgroundImg.jsx";
+import bgUrl from '../assets/Van-Gogh-portrait.jpg';
 import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
+
 
 export default function Header() {
   const [activeTab, setActiveTab] = useState("home");
@@ -16,7 +18,7 @@ export default function Header() {
 
   return (
     <header id="home">
-      <BackgroundImage url="../assets/Van-Gogh-portrait.jpg">
+      <BackgroundImage url={bgUrl}>
         <nav className="w-full bg-black/20 fixed shadow-md z-50">
           <div className="flex flex-wrap justify-between p-4">
             <div>
