@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <header id="home">
-      <BackgroundImage url="/src/assets/Van-Gogh-portrait.jpg">
+      <BackgroundImage url="../assets/Van-Gogh-portrait.jpg">
         <nav className="w-full bg-black/20 fixed shadow-md z-50">
           <div className="flex flex-wrap justify-between p-4">
             <div>
