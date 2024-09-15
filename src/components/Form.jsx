@@ -1,4 +1,5 @@
 import BackgroundImage from "./BackgroundImg.jsx";
+import bgUrl from '../assets/Quinces-Lemons-Pears&Grapes.jpg';
 import Button from "./Button.jsx";
 import { Rating, Star } from "@smastrom/react-rating";
 import { useState } from "react";
@@ -17,7 +18,7 @@ export default function Form() {
   const { register, handleSubmit } = useForm();
 
   return (
-    <BackgroundImage url="src/assets/Quinces-Lemons-Pears&Grapes.jpg">
+    <BackgroundImage url={bgUrl}>
       <div className="flex items-center justify-center h-screen">
         <form
           onSubmit={handleSubmit}
