@@ -1,5 +1,5 @@
 import SectionHeading from "./SectionHeading";
-import imgUrl from '../assets/Vincent's-life.jpg';
+import imgUrl from '../assets/Vincents-life.jpg';
 import Button from "./Button";
 
 export default function About() {
