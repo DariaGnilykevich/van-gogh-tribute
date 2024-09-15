@@ -8,7 +8,7 @@ export default function About() {
         <SectionHeading heading="ABOUT" />
         <div className="flex flex-row items-center justify-evenly">
           <img
-            src="src/assets/Vincent's-life.jpg"
+            src="../assets/Vincent's-life.jpg"
             className="rounded-lg w-auto h-96 "
             alt="Vincent's Life"
           />
