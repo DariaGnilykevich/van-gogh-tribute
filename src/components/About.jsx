@@ -1,4 +1,5 @@
 import SectionHeading from "./SectionHeading";
+import imgUrl from '../assets/Vincent's-life.jpg';
 import Button from "./Button";
 
 export default function About() {
@@ -8,7 +9,7 @@ export default function About() {
         <SectionHeading heading="ABOUT" />
         <div className="flex flex-row items-center justify-evenly">
           <img
-            src="../assets/Vincent's-life.jpg"
+            src={imgUrl}
             className="rounded-lg w-auto h-96 "
             alt="Vincent's Life"
           />
